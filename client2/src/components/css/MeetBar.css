@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+
+.MeetBar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Sigmar One', cursive;
+}
+
+.MeetBar .WishGender, .Interest {
+    font-size: 1.1rem;
+    margin: 25px;
+    width: 40%;
+    height: 70px;
+    text-align: center;
+    line-height: 4rem;
+    flex-grow: 1;
+    color: rgba(255, 255, 255, 0.877);
+    background-color: rgba(94, 93, 93, 0.39);
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.774);
+    cursor: pointer;
+}

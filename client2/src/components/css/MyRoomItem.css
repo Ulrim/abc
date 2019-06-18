@@ -1,0 +1,41 @@
+/* 메뉴 고정 후 무한 스크롤 */
+.MyRoomItem {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-bottom: 5px solid #ebebebbd;
+    border-right: 5px solid #ebebebd0;
+    border-radius: 10px;
+    /* background: rgba(230, 230, 230, 0.479); */
+    background: white;
+    cursor: pointer;
+    margin: 7px;
+}
+
+/* 아이콘 component 필요 */
+.MyRoomItem .MyRoomImg {
+    align-self: center;
+    flex-grow: 1;
+}
+
+/* name 굵게??? */
+.MyRoomItem .name {
+    flex-grow: 2;
+    align-self: center;
+}
+
+.MyRoomItem .Chat {
+    align-self: center;
+    flex-grow: 3;
+    overflow: hidden;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.MyRoomItem .GetMsg {
+    margin-right: 5px;
+    flex-grow: 1;
+    text-align: center;
+    align-self: center;
+}

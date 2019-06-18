@@ -1,0 +1,46 @@
+.FriendItem {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-bottom: 5px solid #ebebebbd;
+    border-right: 5px solid #ebebebd0;
+    border-radius: 10px;
+    /* background: rgba(230, 230, 230, 0.479); */
+    background: white;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.FriendItem a {
+    /* width: 100%; */
+    /* margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto; */
+    /* height: 30px; */
+    padding: 10px;
+    /* margin-left: 20px;
+    line-height: 30px; */
+    text-decoration: none;
+    color: black;
+}
+
+.FriendItem .friendImg {
+    align-self: center;
+    flex-grow: 1;
+}
+
+.FriendItem .name {
+    flex-grow: 3;
+    align-self: center;
+}
+.FriendItem .ChatGo {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-grow: 2;
+}
+
+.ChatGo div {
+    flex-grow: 1;
+    text-align: center;
+}

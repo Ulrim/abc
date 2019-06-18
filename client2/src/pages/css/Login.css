@@ -1,0 +1,169 @@
+.Login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100rem;
+    background: rgba(0, 0, 0, 0.479);
+    z-index: 100;
+}
+
+.Login .main {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 5rem;
+    left: 15%;
+    width: 70%;
+    height: 32%;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    background: rgb(231, 231, 231);
+}
+
+.Login .main .close {
+    margin: 5px;
+    text-align: center;
+    /* border: 2px solid blue; */
+    border-radius: 50px;
+    background: rgba(107, 107, 107, 0.514);
+    transition: all 1.5s;
+    cursor: pointer;
+}
+
+.Login .main .close:hover {
+    color: #FFFFFF;
+    background: black;
+}
+
+.Login .main .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    /* border: 2px solid green; */
+}
+
+.Login .otherLogin {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+}
+
+.otherLogin div {
+    font-size: 1.2rem;
+    text-align: center;
+    flex-grow: 1;
+    margin: 5px;
+    border-radius: 50px;
+    background: rgba(107, 107, 107, 0.514);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.otherLogin div:nth-child(1):hover {
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.753);
+    box-shadow: 1px 1px rgb(85, 85, 85);
+    background: rgb(35, 35, 255);
+}
+
+.otherLogin div:nth-child(2):hover {
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.753);
+    box-shadow: 1px 1px rgb(85, 85, 85);
+    background: linear-gradient(to bottom right, #0066ff -13%, #ffff00 104%);
+}
+
+.Login .username {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    margin: 10px;
+}
+
+.Login .username input {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+}
+
+.Login .password {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    margin: 10px;
+}
+
+.Login .password input {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+}
+
+.Sign {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #020202b4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 70%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15%;
+  }
+  
+  .Sign span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .Sign span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .Sign:hover span {
+    padding-right: 25px;
+  }
+  
+  .Sign:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .Login .Join {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 5px;
+  }
+
+  .Login .Join span {
+    text-align: center;
+    margin: 3px;
+    border-radius: 50px;
+    background: rgba(107, 107, 107, 0.514);
+    cursor: pointer;
+    transition: all 1.5s;
+  }
+
+  .Login .Join span:hover {
+      color: #FFFFFF;
+      background: black;
+  }
